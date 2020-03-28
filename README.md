@@ -139,4 +139,4 @@ CJ오쇼핑이 치과 기기구가 포항금 속에서 블록체계 계획을 �
 ## Reference
 https://github.com/nshepperd/gpt-2
 
-***모델 : GPT2 117M 데이터 : 정치 기사, GPU : NVIDIA 2070***
+***모델 : GPT2, 117M 데이터 : 정치 기사, GPU : NVIDIA 2070***
