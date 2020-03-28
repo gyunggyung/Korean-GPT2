@@ -1,8 +1,9 @@
 # Korean-GPT2
 GPT2를 이용해서 한국어 문장은 재 생성합니다. 모델은 공개할지 미정입니다. tensorflow 1.x 버전에서만 동작합니다. tensorflow 2는 지원하지 않습니다. 상당히 좋은 결과를 보여줍니다. 
 
-*모델 : GPT2 117M 데이터 : 정치 기사, GPU : NVIDIA 2070*
+***모델 : GPT2 117M 데이터 : 정치 기사, GPU : NVIDIA 2070***
 
+## Run
 ```
 python interactive_conditional_samples.py
 ```
