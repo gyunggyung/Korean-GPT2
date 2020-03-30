@@ -1,8 +1,15 @@
 # Korean-GPT2
-GPT2를 이용해서 한국어 문장은 재 생성합니다. tensorflow 1.x 버전에서만 동작합니다. tensorflow 2는 지원하지 않습니다. 상당히 좋은 결과를 보여줍니다. [결과 더보기](https://hipgyung.tistory.com/96) 아래에서 모델을 download 받아, 실행할 수 있습니다.
+GPT2를 이용해서 한국어 문장은 재생성합니다. 40GB 텍스트를 통해서 pre-training을 진행했습니다. 이후 [84 MB 정치 기사](https://github.com/gyunggyung/Korean-GPT2/blob/master/dataset.txt)를 통해서 fine-tuning을 진행했습니다. pre-training과 fine-tuning을 알고 싶다면 [GPT 논문 리뷰](https://hipgyung.tistory.com/24)을 참고하시고, GPT2에 대해서 궁금하다면, [GPT-2 논문 리뷰](https://hipgyung.tistory.com/25?category=843457)를 참고하세요.
+
+- tensorflow 1.x 버전에서만 동작합니다. 
+- tensorflow 2는 지원하지 않습니다. 
+- 상당히 좋은 결과를 보여줍니다. [결과 더보기](https://hipgyung.tistory.com/96) 
+- 아래에서 모델을 download 받아, 실행할 수 있습니다. 
+- 모델은 CPU에서 돌아가지 않습니다.
+- 모델은 GPU에서 돌아갑니다.
 
 ## Download Model
-[Korean GPT2 model](https://drive.google.com/open?id=11NF5KFVXXmNTNBMhT29-h0uMNSi4RtHp)
+[Korean GPT2 115 million parameters model](https://drive.google.com/open?id=11NF5KFVXXmNTNBMhT29-h0uMNSi4RtHp)
 
 ## Run
 ```
@@ -144,6 +151,10 @@ CJ오쇼핑이 치과 기기구가 포항금 속에서 블록체계 계획을 �
 ```
 
 ## Reference
-https://github.com/nshepperd/gpt-2
+> https://openai.com/blog/better-language-models  
+> https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf  
+> https://github.com/openai/gpt-2  
+> https://github.com/nshepperd/gpt-2
+
 
 ***모델 : GPT2, 117M 데이터 : 정치 기사, GPU : NVIDIA 2070***
