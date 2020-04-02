@@ -152,9 +152,9 @@ CJ오쇼핑이 치과 기기구가 포항금 속에서 블록체계 계획을 �
 
 ## Reference
 > https://openai.com/blog/better-language-models  
-> https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf  
 > https://github.com/openai/gpt-2  
-> https://github.com/nshepperd/gpt-2
+> https://github.com/nshepperd/gpt-2  
+> https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf  
 
 
 ***모델 : GPT2, 117M 데이터 : 정치 기사, GPU : NVIDIA 2070***
