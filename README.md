@@ -9,7 +9,7 @@ GPT2를 이용해서 한국어 문장은 재생성합니다. 40GB 텍스트를 �
 - 모델은 GPU에서 돌아갑니다.
 
 ## Download Model
-[Korean GPT2 115 million parameters model](https://drive.google.com/open?id=11NF5KFVXXmNTNBMhT29-h0uMNSi4RtHp)
+[Korean GPT2 115 million parameters model](https://drive.google.com/open?id=1bUgqHf8HmZX_5sAYMdZfPSRkCwbnMttF)
 
 ## Run
 ```
