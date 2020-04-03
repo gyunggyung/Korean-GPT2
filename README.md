@@ -1,4 +1,4 @@
-![](gpt-2_update_8-15a.jpg)
+![](img/gpt-2_update_8-15a.jpg)
 
 GPT2를 이용해서 한국어 문장은 재생성합니다. 40GB 텍스트를 통해서 pre-training을 진행했습니다. 이후 [84 MB 정치 기사](https://github.com/gyunggyung/Korean-GPT2/blob/master/dataset.txt)와 소설 데이터를 통해서 fine-tuning을 진행했습니다. pre-training과 fine-tuning을 알고 싶다면 [GPT 논문 리뷰](https://hipgyung.tistory.com/24)을 참고하시고, GPT2에 대해서 궁금하다면, [GPT-2 논문 리뷰](https://hipgyung.tistory.com/25?category=843457)를 참고하세요.
 
