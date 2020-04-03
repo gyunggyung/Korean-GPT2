@@ -1,5 +1,6 @@
-# Korean-GPT2
-GPT2를 이용해서 한국어 문장은 재생성합니다. 40GB 텍스트를 통해서 pre-training을 진행했습니다. 이후 [84 MB 정치 기사](https://github.com/gyunggyung/Korean-GPT2/blob/master/dataset.txt)를 통해서 fine-tuning을 진행했습니다. pre-training과 fine-tuning을 알고 싶다면 [GPT 논문 리뷰](https://hipgyung.tistory.com/24)을 참고하시고, GPT2에 대해서 궁금하다면, [GPT-2 논문 리뷰](https://hipgyung.tistory.com/25?category=843457)를 참고하세요.
+![](gpt-2_update_8-15a.jpg)
+
+GPT2를 이용해서 한국어 문장은 재생성합니다. 40GB 텍스트를 통해서 pre-training을 진행했습니다. 이후 [84 MB 정치 기사](https://github.com/gyunggyung/Korean-GPT2/blob/master/dataset.txt)와 소설 데이터를 통해서 fine-tuning을 진행했습니다. pre-training과 fine-tuning을 알고 싶다면 [GPT 논문 리뷰](https://hipgyung.tistory.com/24)을 참고하시고, GPT2에 대해서 궁금하다면, [GPT-2 논문 리뷰](https://hipgyung.tistory.com/25?category=843457)를 참고하세요.
 
 - tensorflow 1.x 버전에서만 동작합니다. 
 - tensorflow 2는 지원하지 않습니다. 
@@ -11,14 +12,15 @@ GPT2를 이용해서 한국어 문장은 재생성합니다. 40GB 텍스트를 �
 
 ## Run
 ```
-python interactive_conditional_samples.py
+python interactive_conditional_samples.py --model_name news
 ```
 #### or
 ```
-python generate_unconditional_samples.py
+python interactive_conditional_samples.py --model_name novel
 ```
 
 ## Sample
+Korean-GPT2 모델로 만든 결과들을 입니다!
 
 ### Novel
 
