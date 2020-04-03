@@ -82,7 +82,15 @@ def interact_model(
                     generated += 1
                     text = enc.decode(out[i])
                     print("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
-                    print(text)
+                    #print(text)
+                    # new text
+                    print(raw_text)
+                    line = []
+                    for i, t in enumerate(text.split()):
+                        line.append(t)
+                        if (i+1) % 5 == 0:
+                            print(" ".join(line))
+                            line = []
             print("=" * 80)
 
 if __name__ == '__main__':
