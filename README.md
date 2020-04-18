@@ -8,21 +8,35 @@ GPT2를 이용해서 한국어 문장은 재생성합니다. 40GB 텍스트를 �
 - 아래에서 모델을 download 받아, 실행할 수 있습니다. 
 
 ## Download Model
+
 #### [Korean GPT2 115 million parameters model](https://drive.google.com/open?id=1bUgqHf8HmZX_5sAYMdZfPSRkCwbnMttF)
 
 ## Run
+
 ```
 python interactive_conditional_samples.py --model_name news
 ```
+
 #### or
+
 ```
 python interactive_conditional_samples.py --model_name novel
 ```
 
+#### or
+
+```
+python interactive_conditional_samples.py --model_name lyrics
+```
+
+
+
 ## Sample
+
 Korean-GPT2 모델로 만든 결과들입니다!
 
 ### lyrics
+
 ```
 [Chorus: Seung it, Minho]
 
@@ -873,6 +887,7 @@ Living without a TV is like a movie without a screen
 ```
 
 ### News
+
 ```
 본점 수제학자로 변경된다. 또 일본이다. 
 빈쇼핑더마를 개발 다른 유아제풋·브루션 브랜드 라인은 이번 상품에도 
@@ -1002,6 +1017,7 @@ CJ오쇼핑이 치과 기기구가 포항금 속에서 블록체계 계획을 �
 ```
 
 ## Reference
+
 > https://openai.com/blog/better-language-models  
 > https://github.com/openai/gpt-2  
 > https://github.com/nshepperd/gpt-2  
