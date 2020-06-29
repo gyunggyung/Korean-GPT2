@@ -1,4 +1,4 @@
-이 Repository는 더 이상 관리하지 않고 있습니다. https://github.com/gyunggyung/KoGPT2-FineTuning 이곳을 이용해주세요 :)
+# 이 Repository는 더 이상 관리하지 않고 있습니다. https://github.com/gyunggyung/KoGPT2-FineTuning 이곳을 이용해주세요 :)
 
 ![](img/2019-11-13_this-article-was-written-by-an-ai-GPT-2-1.png)
 
